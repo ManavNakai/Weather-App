@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <p>Enter a city name to get the weather :</p>
+    <form action="get-weather" id="myForm" method="post">
+      <input type="text" name="cityInput" class="form-select" placeholder="Enter city name">
+      <button type="submit" class="form-submit">Get Weather</button>
+    </form>
+    <div id="weatherInfo">
+      <% if(locals.error) { %>
+        <p><%=error%></p>
+      <% } else if(locals.name&&locals.description&&locals.temperature&&locals.humidity){%>
+        <h2><%=name%></h2>
+        <p>Description: <%=description%></p>
+        <p>Temperature: <%=temperature%></p>
+        <p>Humidity: <%=humidity%></p>
+      <% } else {%>
+      <% } %>
+    </div>
+  </div>
+</body>
+
+</html>
