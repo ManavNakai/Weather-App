@@ -13,7 +13,7 @@ Weather-App is a web application that allows users to check the weather of any c
 - [Links](#links)
 
 ## Project Overview
-The Weather-App application fetches weather data for any city and displays it on a web page. The project demonstrates how to set up a backend server using Node.js and Express.js, use EJS for dynamic HTML rendering, make HTTP requests using Axios, and manage environment variables using dotenv.
+The Weather-App application fetches weather data for any city and displays it on a web page with a minimal front-end design. The project demonstrates how to set up a backend server using Node.js and Express.js, use EJS for dynamic HTML rendering, make HTTP requests using Axios, and manage environment variables using dotenv.
 
 ## Tech Stack
 - **CSS3**: For styling the web page.
